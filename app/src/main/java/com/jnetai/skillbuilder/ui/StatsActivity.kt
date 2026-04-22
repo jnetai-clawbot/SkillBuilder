@@ -6,6 +6,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
+import com.jnetai.skillbuilder.R
 import com.jnetai.skillbuilder.data.PracticeSession
 import com.jnetai.skillbuilder.data.Skill
 import com.jnetai.skillbuilder.databinding.ActivityStatsBinding
@@ -87,7 +88,7 @@ class StatsActivity : AppCompatActivity() {
 
                 for ((category, stats) in categoryStats) {
                     val view = layoutInflater.inflate(
-                        com.jnetai.skillbuilder.R.layout.item_category_stat,
+                        R.layout.item_category_stat,
                         binding.categoryStatsContainer,
                         false
                     )
