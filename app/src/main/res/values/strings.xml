@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SkillBuilder</string>
+    <string name="add_skill">Add Skill</string>
+    <string name="skill_name">Skill Name</string>
+    <string name="category">Category</string>
+    <string name="difficulty_level">Difficulty Level</string>
+    <string name="target_proficiency">Target Proficiency</string>
+    <string name="save">Save</string>
+    <string name="log_practice">Log Practice</string>
+    <string name="delete_skill">Delete Skill</string>
+    <string name="about">About</string>
+    <string name="weekly_stats">Weekly Stats</string>
+    <string name="export_data">Export Data</string>
+    <string name="check_for_updates">Check for Updates</string>
+    <string name="share">Share</string>
+    <string name="no_skills">No skills yet.\nTap + to add one!</string>
+    <string name="no_sessions">No practice sessions yet.</string>
+    <string name="no_milestones">No milestones yet. Keep practicing!</string>
+    <string name="minutes_format">%d min</string>
+    <string name="proficiency_format">%d / %d</string>
+    <string name="streak_format">🔥 %d day streak</string>
+    <string name="next_practice_format">Next practice: %s</string>
+    <string name="level_up">Level Up! 🎉</string>
+    <string name="channel_reminders">Skill Practice Reminders</string>
+
+    <string-array name="difficulty_levels">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+        <item>Expert</item>
+    </string-array>
+
+    <string-array name="default_categories">
+        <item>Programming</item>
+        <item>Music</item>
+        <item>Language</item>
+        <item>Art</item>
+        <item>Sport</item>
+        <item>Cooking</item>
+        <item>Writing</item>
+        <item>Math</item>
+        <item>Other</item>
+    </string-array>
+</resources>
